@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6A6A4252A66C71A00D4EFFF /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A6A4242A66C71A00D4EFFF /* StorageManager.swift */; };
 		B6B94F592A61F7A300736703 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B94F582A61F7A300736703 /* AppDelegate.swift */; };
 		B6B94F5D2A61F7A300736703 /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B94F5C2A61F7A300736703 /* TaskListViewController.swift */; };
 		B6B94F632A61F7A300736703 /* ToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6B94F612A61F7A300736703 /* ToDoList.xcdatamodeld */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B6A6A4242A66C71A00D4EFFF /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		B6B94F552A61F7A300736703 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6B94F582A61F7A300736703 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6B94F5C2A61F7A300736703 /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				B6B94F582A61F7A300736703 /* AppDelegate.swift */,
 				B6B94F5C2A61F7A300736703 /* TaskListViewController.swift */,
+				B6A6A4242A66C71A00D4EFFF /* StorageManager.swift */,
 				B6B94F642A61F7A500736703 /* Assets.xcassets */,
 				B6B94F662A61F7A500736703 /* LaunchScreen.storyboard */,
 				B6B94F692A61F7A500736703 /* Info.plist */,
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6B94F5D2A61F7A300736703 /* TaskListViewController.swift in Sources */,
+				B6A6A4252A66C71A00D4EFFF /* StorageManager.swift in Sources */,
 				B6B94F592A61F7A300736703 /* AppDelegate.swift in Sources */,
 				B6B94F632A61F7A300736703 /* ToDoList.xcdatamodeld in Sources */,
 			);
